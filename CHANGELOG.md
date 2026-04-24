@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 - No unreleased changes so far
 
+## [0.11.9] - 2026-04-24
+### Added
+- Add Campermode plugin to supported plugins list
+
+### Fixed
+- Better error message when cache file is not found
+
+### Dependencies
+- Update requests to ~=2.33.0 and pillow to ~=12.2.0
+- Update flask from ~=3.1.2 to ~=3.1.3
+
 ## [0.11.8] - 2026-01-25
 ### Added
 - Support for priorities when registering services to allow connectors to specify which service should be used first when multiple services for the same type are registered
@@ -158,7 +169,8 @@ Warning: This is a breaking change for all connectors and plugins. Only update t
 ## [0.1] - 2025-01-25
 Initial release, let's go and give this to the public to try out...
 
-[unreleased]: https://github.com/tillsteinbach/CarConnectivity/compare/v0.11.8...HEAD
+[unreleased]: https://github.com/tillsteinbach/CarConnectivity/compare/v0.11.9...HEAD
+[0.11.9]: https://github.com/tillsteinbach/CarConnectivity/releases/tag/v0.11.9
 [0.11.8]: https://github.com/tillsteinbach/CarConnectivity/releases/tag/v0.11.8
 [0.11.7]: https://github.com/tillsteinbach/CarConnectivity/releases/tag/v0.11.7
 [0.11.6]: https://github.com/tillsteinbach/CarConnectivity/releases/tag/v0.11.6
